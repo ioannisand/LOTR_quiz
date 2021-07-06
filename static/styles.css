@@ -1,0 +1,46 @@
+body {
+    text-align:center;
+    font-family: 'Bilbo', cursive;
+    font-size:2.5rem;
+    background-image:url('background.jpg');
+    background-size:cover;
+    color: #FF3200;
+}
+
+btn {
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    font-size:4rem;
+}
+
+.scoreboard {
+    font-size: 4rem;
+}
+
+h1 {
+    background-image: url('fire.jpg');
+    backgound-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2{
+    background-image: url('fire.jpg');
+    backgound-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.question-container {
+    margin-top: 8%;
+    background-image: url('fire.jpg');
+    backgound-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

@@ -1,0 +1,25 @@
+{% extends 'bootstrap/base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+
+{% block styles %}
+<link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
+{% endblock %}
+
+
+
+{% block content %}
+
+<h1>Quote {{number+1}}: {{question}}</h1>
+
+
+<div class="question-container">
+    {{ wtf.csrf_token }}
+    {{ wtf.quick_form(forma) }}
+    <h1 class="scoreboard">score: {{number}}</h1>
+</div>
+
+{% endblock %}
