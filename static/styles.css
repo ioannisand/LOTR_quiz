@@ -7,9 +7,6 @@ body {
     color: #FF3200;
 }
 
-btn {
-    font-family: "Times New Roman", Times, serif;
-}
 
 h1 {
     font-size:4rem;
@@ -25,9 +22,11 @@ h1 {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    margin-bottom:0;
 }
 
 h2{
+    margin-top:0;
     background-image: url('fire.jpg');
     backgound-size: cover;
     background-clip: text;
@@ -37,10 +36,20 @@ h2{
 
 
 .question-container {
-    margin-top: 8%;
+    margin-top: 12%;
     background-image: url('fire.jpg');
     backgound-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+}
+
+
+.startgame {
+    margin-top:18%;
+
+}
+
+a {
+    text-decoration: none;
 }

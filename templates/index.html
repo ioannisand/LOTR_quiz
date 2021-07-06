@@ -16,5 +16,6 @@
 {% block content %}
 <h1>Welcome to the Lord of the Rings Quote Quiz</h1>
 <h2>Guess who said the quote, get it right to proceed to the next question!</h2>
-<a href="{{url_for('show_question', num=number)}}"><h2>START GAME</h2></a>
+
+<a href="{{url_for('show_question', num=number)}}"><h2 class="startgame">START GAME</h2></a>
 {% endblock %}
